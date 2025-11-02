@@ -1,0 +1,93 @@
+body{
+background-color: black;
+
+background-image: url(899195.jpg);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+background-size: 90% ;
+color: azure;
+}
+
+
+h1,h3,h2{
+  font-family: sans-serif;
+text-align: center;
+color: rgb(132, 6, 6);
+text-shadow: 5px 5px 1 rgb(132, 6, 6);
+font-size: 30px; 
+font-family: "Momo Trust Display", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+
+}
+p,ul{
+text-align: center;
+
+}
+img {
+  display: block;
+ margin: 100px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgb(132, 6, 6);
+  border-radius: 60px;
+  transition: all 0.3s ease;
+  
+  }
+form {
+  position: absolute;
+  top: 180px;
+  left: 55%;
+  background: black;
+  padding: 60px 40px 60px 40px;
+  border: 2px solid rgb(132, 6, 6);
+  border-radius: 15px;
+  box-shadow: 0 0 30px rgb(132, 6, 6), inset 0 0 10px #300;
+  transition: all 0.3s ease;
+  width: 400px;
+  height: 200px;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+}
+form input{
+  background-color: rgb(132, 6, 6);
+  border-radius: 30px;
+ color: white;
+ padding: 5px 10px;
+ font-family: "Momo Trust Display", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  transition: all 0.3s ease;
+  flex-grow: 1;
+}
+
+  ul{
+    list-style: none;
+    padding: 0;
+  }
+  li{
+    background: gray;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    list-style: none;
+    transition: all 0.3s ease;
+  }
+  li:hover{
+    transform: translateY(-10px);
+    background-color: #888;
+  }
+   img:hover{
+    transform: translateY(-10px);
+    background-color: #888;
+  }
+   form:hover{
+    transform: translateY(-10px);
+    
+  }
+  input:hover{
+     transform: translateY(-10px);
+  }
+  
